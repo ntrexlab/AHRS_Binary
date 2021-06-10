@@ -32,19 +32,19 @@ GitHub -> [ntrexlab/AHRS_Binary](https://github.com/ntrexlab/AHRS_Binary)
     #### 1. AHRS_USB_TTL to  RS232을 제작한다. 
     #### 2. AHRS_UI_180808을 설치한다.
     #### 3. AHRS_USB_TTL to RS232를 PC에 연결 후 AHRS_UI_180808을 실행한다.
-    ![ahrs연결](https://user-images.githubusercontent.com/85467544/121452116-d7c48980-c9d9-11eb-90ff-9787a9a066f1.png)
     #### 4. Connect 버튼(1)을 클릭한다.
     #### 5. Connection(2) 창이 뜨면 COM PORT의 연결 USB 번호를 설정한다.
     #### 6. Baudrate를 115200으로 설정한 후 Connect 버튼을 클릭한다.
     #### 7. Configure 버튼을 클릭한다.
-    ![ahrsui](https://user-images.githubusercontent.com/85467544/121452514-84067000-c9da-11eb-8d20-a0f80b553315.png)
+    ![ahrs연결](https://user-images.githubusercontent.com/85467544/121452116-d7c48980-c9d9-11eb-90ff-9787a9a066f1.png)
     #### 8. RS-232 Bandrate(3) 확인한다.
     #### 9. Transmission Mode(4)의 값을 Binary로 지정한다. 
     #### 10. Select RS232 Data Type(5) 확인한다. 
+    ![ahrsui](https://user-images.githubusercontent.com/85467544/121452514-84067000-c9da-11eb-8d20-a0f80b553315.png)
     #### 11. Arduino_Hardware를 제작한다.(Hardware)
     #### 12. Arduino 프로그램을 설치한다.
-    ![아두이노s](https://user-images.githubusercontent.com/85467544/121452666-c9c33880-c9da-11eb-95f6-901ed5563d18.png)
     #### 13. 11번에서 제작한 Hardware를 연결 후 보드,프로세서,포트를 제작한 하드웨어에 맞게 설정한다.
+     ![아두이노s](https://user-images.githubusercontent.com/85467544/121452666-c9c33880-c9da-11eb-95f6-901ed5563d18.png)
     #### 14. [코드](http://github.com/ntrexlab/AHRS_Binary/tree/main/ahrs_binary)를 작성한다.
     
     
