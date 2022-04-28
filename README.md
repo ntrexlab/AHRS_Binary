@@ -68,16 +68,16 @@ GitHub -> [ntrexlab/AHRS_Binary](https://github.com/ntrexlab/AHRS_Binary)
     void setup() {
   
     Serial.begin(115200); //AHRS_UI Baudrate 동일하게 설정.
-
+    Serial1.begin(115200);
     }
 
     void loop() {
 
-        if (Serial.available()){  
+        if (Serial1.available()){  
     
             for(int i=0; i<13 ; i++){
         
-                Serial.readBytes(&buf,1);
+                Serial1.readBytes(&buf,1);
                 buff_arrey[i] = buf;
 
                 //버퍼에 들어오는 값을 buf를 통해 buff_arrey 배열에 1~13(0~12)까지 순서대로 저장.
